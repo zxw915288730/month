@@ -11,7 +11,7 @@
 #### 一. 如何提交
 先是通过Git的方式提交到[https://github.com/jsfront/month](https://github.com/jsfront/month)，然后月底的时候由我发布到国内看云平台上[JS前端开发群月报](http://www.kancloud.cn/jsfront/month/82796)，这个平台的优点是：访问速度更快，查询更方便。
 
-##### 1. 如何发起pull request
+##### 1.1 如何发起pull request
 
 推荐github使用工具，建议Webstorm, Sourcetree，命令行(window加强cmd工具Cmder)，不要下载那个客户端。
 
@@ -24,12 +24,12 @@
 - [SourceTree 使用](http://blog.sina.com.cn/s/blog_a3c770670102uywk.html)
 
 
-##### 2. 如何提交：
+##### 1.2 如何提交：
 
 整个流程（其中我为云峰）：
 我先fork了Jsfront/Month的仓库，然后我从我的仓库克隆到本地修改，修改完后提交到我的仓库，然后我在申请pull request，Jsfront/Month同意合并后其实整个过程就完了，但是Jsfront/Month后期会更改一下内容就需要我刚那一步在我本地同步一下你的远程仓库，同步后再提交到我的仓库。
 
-##### 3. 提交之后：
+##### 1.3 提交之后：
 
 提交之后等合并到jsfront/month之后，为了保证是最新版，还需要进行一次本地与远程仓库的手动更新。
 
