@@ -22,6 +22,10 @@
 - [GUI for git|SourceTree|入门基础](http://www.jianshu.com/p/be9f0484af9d)
 - [SourceTree 使用](http://blog.sina.com.cn/s/blog_a3c770670102uywk.html)
 
+    提交之后等合并到jsfront/month之后，为了保证是最新版，还需要进行一次本地与远程仓库的手动更新。
+
+- [github同步fork别人的项目到自己的仓库](https://segmentfault.com/a/1190000003703918)
+
 #### 二. 提交的注意点
 
 - 内容必须超过当前显示器一屏。
