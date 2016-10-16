@@ -13,11 +13,10 @@
 
 1. 如何发起pull request
 
+推荐github使用工具，建议Webstorm, Sourcetree，命令行(window加强cmd工具Cmder)，不要下载那个客户端。
+
 - [github 如何创建 pull 请求](https://github.com/waylau/github-help/blob/master/Creating%20a%20pull%20request%20%E5%88%9B%E5%BB%BA%20pull%20%E8%AF%B7%E6%B1%82.md)
 - [github的pull request是指什么意思？](https://www.zhihu.com/question/21682976)
-
-    推荐github使用工具，建议Webstorm, Sourcetree，命令行(window加强cmd工具Cmder)，不要下载那个客户端。
-
 - [利用WebStorm来管理你的Github](http://www.mrfangge.com/how-to-use-webstorm-to-manage-your-github/)
 - [使用webstorm上传代码到github](http://www.jianshu.com/p/752613f4b1c9)
 - [Git本地项目上传 & SourceTree & GitHub 简单使用](http://www.blogs8.cn/posts/Au2te07)
@@ -28,7 +27,6 @@
 
 整个流程（其中我为云峰）：
 我先fork了Jsfront/Month的仓库，然后我从我的仓库克隆到本地修改，修改完后提交到我的仓库，然后我在申请pull request，Jsfront/Month同意合并后其实整个过程就完了，但是Jsfront/Month后期会更改一下内容就需要我刚那一步在我本地同步一下你的远程仓库，同步后再提交到我的仓库。
-
 
 3. 提交之后：
 
