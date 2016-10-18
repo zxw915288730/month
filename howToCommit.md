@@ -11,16 +11,30 @@
 #### 一. 如何提交
 先是通过Git的方式提交到[https://github.com/jsfront/month](https://github.com/jsfront/month)，然后月底的时候由我发布到国内看云平台上[JS前端开发群月报](http://www.kancloud.cn/jsfront/month/82796)，这个平台的优点是：访问速度更快，查询更方便。
 
+##### 1.1 如何发起pull request
+
+推荐github使用工具，建议Webstorm, Sourcetree，命令行(window加强cmd工具Cmder)，不要下载那个客户端。
+
 - [github 如何创建 pull 请求](https://github.com/waylau/github-help/blob/master/Creating%20a%20pull%20request%20%E5%88%9B%E5%BB%BA%20pull%20%E8%AF%B7%E6%B1%82.md)
 - [github的pull request是指什么意思？](https://www.zhihu.com/question/21682976)
-
-    推荐github使用工具，建议Webstorm, Sourcetree，命令行(window加强cmd工具Cmder)，不要下载那个客户端。
-
 - [利用WebStorm来管理你的Github](http://www.mrfangge.com/how-to-use-webstorm-to-manage-your-github/)
 - [使用webstorm上传代码到github](http://www.jianshu.com/p/752613f4b1c9)
 - [Git本地项目上传 & SourceTree & GitHub 简单使用](http://www.blogs8.cn/posts/Au2te07)
 - [GUI for git|SourceTree|入门基础](http://www.jianshu.com/p/be9f0484af9d)
 - [SourceTree 使用](http://blog.sina.com.cn/s/blog_a3c770670102uywk.html)
+
+
+##### 1.2 如何提交：
+
+整个流程（其中我为云峰）：
+我先fork了Jsfront/Month的仓库，然后我从我的仓库克隆到本地修改，修改完后提交到我的仓库，然后我在申请pull request，Jsfront/Month同意合并后其实整个过程就完了，但是Jsfront/Month后期会更改一下内容就需要我刚那一步在我本地同步一下你的远程仓库，同步后再提交到我的仓库。
+
+##### 1.3 提交之后：
+
+提交之后等合并到jsfront/month之后，为了保证是最新版，还需要进行一次本地与远程仓库的手动更新。
+
+- [github同步fork别人的项目到自己的仓库](https://segmentfault.com/a/1190000003703918)
+
 
 #### 二. 提交的注意点
 
@@ -36,7 +50,7 @@
 #### 三. 内容采集的方式
 就是日常月报上的链接从哪里收集，从那里能够得到最新的信息，由于英文的传播问题，这里边暂时只列举中文的，英文的回头的补上，同学有好的英文网站也可以加上。
 
-3.1 来自于各个前端集合网站中的博客或技术站点
+##### 3.1 来自于各个前端集合网站中的博客或技术站点
 
 - [【前端收集】](https://github.com/jikeytang/front-end-collect)：主要是一个当下流行的前端相关博客收集
 - [【稀土掘金】](http://gold.xitu.io/#/)：综合性的资讯网站，但是前端文章质量良莠不齐
@@ -47,7 +61,7 @@
 - [【div.io】](http://div.io/)：专业前端社区，更新较慢
 
 
-3.2 信息集合网站
+##### 3.2 信息集合网站
 
 - [【大前端导航】](http://www.daqianduan.com/nav)
 - [【whycss】](http://whycss.com/)
@@ -57,7 +71,7 @@
 - [【前端工具箱】](https://www.awesomes.cn/)
 - [【前端导航网站】](http://fenav.com/#/index)
 
-3.3 群内内容记录
+##### 3.3 群内内容记录
 比如在群内出现频率比较高的问题的提问及实现
 
 - [请问下 A页面有些信息，要到B页面里面改，然后返回A页面，那些信息该怎么保存？]()
@@ -65,7 +79,7 @@
 
 [常用代码收集资源分享，包括群规](https://github.com/jsfront/src)
 
-3.4 其它方式
+##### 3.4 其它方式
 
 - [【新浪微博】](http://www.weibo.com)
 - [【微信公众号 - 前端早读君】]()
