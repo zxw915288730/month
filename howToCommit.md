@@ -22,6 +22,7 @@
 - [Git本地项目上传 & SourceTree & GitHub 简单使用](http://www.blogs8.cn/posts/Au2te07)
 - [GUI for git|SourceTree|入门基础](http://www.jianshu.com/p/be9f0484af9d)
 - [SourceTree 使用](http://blog.sina.com.cn/s/blog_a3c770670102uywk.html)
+- [GIT操作详细步骤（工作实践经验）](http://www.jianshu.com/p/60fac8b97465)
 
 
 ##### 1.2 如何提交：
