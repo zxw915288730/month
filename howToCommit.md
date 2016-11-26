@@ -28,11 +28,41 @@
 ##### 1.2 如何提交：
 
 整个流程（其中我为云峰）：
-我先fork了Jsfront/Month的仓库，然后我从我的仓库克隆到本地修改，修改完后提交到我的仓库，然后我在申请pull request，Jsfront/Month同意合并后其实整个过程就完了，但是Jsfront/Month后期会更改一下内容就需要我刚那一步在我本地同步一下你的远程仓库，同步后再提交到我的仓库。
+我先fork了Jsfront/Month的仓库，然后我从我的仓库克隆到本地修改，修改完后提交到我的仓库，然后我再申请`pull request`，`jsfront/month`同意合并后其实整个过程就完了，但是`jsfront/month`经常会有更改就需要我刚那一步在我本地同步一下你的远程仓库，同步后再提交到我的仓库。
+具体代码:
+```bash
+# 列出远程仓库 URL
+$ git remote -v
+# List the current remotes （列出当前远程仓库）
+# origin  https://github.com/user/month.git (fetch)
+# origin  https://github.com/user/month.git (push)
+
+# 添加上游仓库URL
+$ git remote add jsfront git@github.com:jsfront/month.git
+# Set a new remote (设置一个新的远程仓库)
+
+# 再次列出远程仓库 URL
+$ git remotree -v
+# Verify new remote (验证新的远程仓库)
+# jsfont  git@github.com:jsfront/month.git (fetch)
+# jsfont	  git@github.com:jsfront/month.git (push)
+# origin	  git@github.com:hiyangguo/month.git (fetch)
+# origin	  git@github.com:hiyangguo/month.git (push)
+
+# 获取上游代码
+$ git fetch jsfont
+
+# 检查你的 fork’s 本地 master 分支，如果不在master 分支就切换到该分支
+$ git checkout master
+# Switched to branch 'master'
+
+# 合并来自 jsfont/master 的更改到本地 master 分支上。
+$ git merge jsfont/master
+```
 
 ##### 1.3 提交之后：
 
-提交之后等合并到jsfront/month之后，为了保证是最新版，还需要进行一次本地与远程仓库的手动更新。
+提交之后等合并到`jsfront/month`之后，为了保证是最新版，还需要进行一次本地与远程仓库的手动更新。
 
 - [github同步fork别人的项目到自己的仓库](https://segmentfault.com/a/1190000003703918)
 
@@ -71,6 +101,7 @@
 - [【醉牛前端 - 最专业  最懂你】](http://f2er.club/)
 - [【前端工具箱】](https://www.awesomes.cn/)
 - [【前端导航网站】](http://fenav.com/#/index)
+- [【前端导航网】])(http://jsdig.com/)
 
 ##### 3.3 群内内容记录
 比如在群内出现频率比较高的问题的提问及实现
