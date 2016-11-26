@@ -13,7 +13,7 @@
 
 ##### 1.1 如何发起pull request
 
-推荐github使用工具，建议Webstorm, Sourcetree，命令行(window加强cmd工具Cmder)，不要下载那个客户端。
+推荐`github`使用工具，建议[[WebStorm][webstorm-download]](), [[Sourcetree][sourcetree-download]]()，命令行(window加强cmd工具Cmder)，不要下载那个客户端。
 
 - [github 如何创建 pull 请求](https://github.com/waylau/github-help/blob/master/Creating%20a%20pull%20request%20%E5%88%9B%E5%BB%BA%20pull%20%E8%AF%B7%E6%B1%82.md)
 - [github的pull request是指什么意思？](https://www.zhihu.com/question/21682976)
@@ -28,7 +28,7 @@
 ##### 1.2 如何提交：
 
 整个流程（其中我为云峰）：
-我先fork了Jsfront/Month的仓库，然后我从我的仓库克隆到本地修改，修改完后提交到我的仓库，然后我再申请`pull request`，`jsfront/month`同意合并后其实整个过程就完了，但是`jsfront/month`经常会有更改就需要我刚那一步在我本地同步一下你的远程仓库，同步后再提交到我的仓库。
+我先`fork`了`jsfront/month`的仓库，然后我从我的仓库克隆到本地修改，修改完后提交到我的仓库，然后我再申请`pull request`，`jsfront/month`同意合并后其实整个过程就完了，但是`jsfront/month`经常会有更改就需要我刚那一步在我本地同步一下你的远程仓库，同步后再提交到我的仓库。
 具体代码:
 ```bash
 # 列出远程仓库 URL
@@ -136,3 +136,7 @@ $ git merge jsfont/master
 #### 六. 参与者
 
 - 提交者除了在github正常的提交记录上出现之外，还会出现在每期的贡献者名单上，这以前没有这期加上。
+
+
+[webstorm-download]:https://www.jetbrains.com/webstorm/
+[sourcetree-download]:https://www.sourcetreeapp.com/
