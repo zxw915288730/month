@@ -101,7 +101,7 @@ $ git merge jsfont/master
 - [【醉牛前端 - 最专业  最懂你】](http://f2er.club/)
 - [【前端工具箱】](https://www.awesomes.cn/)
 - [【前端导航网站】](http://fenav.com/#/index)
-- [【前端导航网】])(http://jsdig.com/)
+- [【前端导航网】)(http://jsdig.com/)
 
 ##### 3.3 群内内容记录
 比如在群内出现频率比较高的问题的提问及实现
