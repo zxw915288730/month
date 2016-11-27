@@ -44,20 +44,20 @@ $ git remote add jsfront git@github.com:jsfront/month.git
 # 再次列出远程仓库 URL
 $ git remotree -v
 # Verify new remote (验证新的远程仓库)
-# jsfont  git@github.com:jsfront/month.git (fetch)
-# jsfont	  git@github.com:jsfront/month.git (push)
-# origin	  git@github.com:hiyangguo/month.git (fetch)
-# origin	  git@github.com:hiyangguo/month.git (push)
+# jsfront     git@github.com:jsfront/month.git (fetch)
+# jsfront     git@github.com:jsfront/month.git (push)
+# origin      git@github.com:hiyangguo/month.git (fetch)
+# origin      git@github.com:hiyangguo/month.git (push)
 
 # 获取上游代码
-$ git fetch jsfont
+$ git fetch jsfront
 
 # 检查你的 fork’s 本地 master 分支，如果不在master 分支就切换到该分支
 $ git checkout master
 # Switched to branch 'master'
 
-# 合并来自 jsfont/master 的更改到本地 master 分支上。
-$ git merge jsfont/master
+# 合并来自 jsfront/master 的更改到本地 master 分支上。
+$ git merge jsfront/master
 ```
 
 ##### 1.3 提交之后：
