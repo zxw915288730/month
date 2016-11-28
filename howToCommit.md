@@ -76,6 +76,14 @@ $ git merge jsfront/master
     - 也有的是以反问的形式做为标题，然后以背景开发，以论据为主题：[【如何做好一名实习生】](http://www.cnblogs.com/hustskyking/p/how-to-be-an-excellent-intern.html)
     - 有的纯技术文章或者没有注重任何的形式，就是以一系列的问题集合做为主体。这种内容只要超过一屏也是可以的，比如：[【你应该知道的JavaScript】](http://youbookee.com/2016/08/30/js-you-should-know/)
 - 文案排版最好能遵循[[文案排版规范][coding-copy-writing]]()（此规范来自 CODING 最佳实践）。
+- 提交时务必注意，有一个清晰的 `commit` 信息（注明提交的内容，修改了什么或者更新了什么），方便代码的整体维护。
+```bash
+# 正确的做法
+$ git commit -m "update:添加了月报的 url "
+# 错误的做法
+$ git commit -m "update"
+```
+
 #### 三. 内容采集的方式
 就是日常月报上的链接从哪里收集，从那里能够得到最新的信息，由于英文的传播问题，这里边暂时只列举中文的，英文的回头的补上，同学有好的英文网站也可以加上。
 
