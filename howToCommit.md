@@ -9,11 +9,11 @@
 - 目前虽然各个信息出口比较多，但是内容质量还是不太高，信息噪音太多。我们试图通过一个团队通过一定的专业眼光的识别，推荐质量比较好的文章出来。虽然我们群也有不少同学刚入行，但有这个起点，比一般平台网站的编辑已经高一个档次，在我们其它群的熏陶下，眼界也是不一样的。
 
 #### 一. 如何提交
-先是通过 `Git` 的方式提交到[https://github.com/jsfront/month](https://github.com/jsfront/month)，然后月底的时候由我发布到国内看云平台上[JS前端开发群月报](http://www.kancloud.cn/jsfront/month/82796)，这个平台的优点是：访问速度更快，查询更方便。
+首先使用 `Git` 工具提交到[https://github.com/jsfront/month](https://github.com/jsfront/month)，然后月底的时候由我发布到国内看云平台上[JS前端开发群月报](http://www.kancloud.cn/jsfront/month/82796)，这个平台的优点是：访问速度更快，查询更方便。
 
 ##### 1.1 如何发起pull request
 
-推荐 `github` 使用工具，建议 [[WebStorm][webstorm-download]]() , [[Sourcetree][sourcetree-download]]() ，命令行( window 加强 `cmd` 工具 [[Cmder][cmder-home]]() ，建议不要下载那个客户端。
+推荐 `GitHub` 使用工具，建议 [[WebStorm][webstorm-download]]() , [[Sourcetree][sourcetree-download]]() ，命令行( window 加强 `CMD` 工具 [[Cmder][cmder-home]]() ，建议不要下载那个客户端。
 
 - [GitHub 如何创建 pull 请求](https://github.com/waylau/github-help/blob/master/Creating%20a%20pull%20request%20%E5%88%9B%E5%BB%BA%20pull%20%E8%AF%B7%E6%B1%82.md)
 - [GitHub 的 pull request 是指什么意思？](https://www.zhihu.com/question/21682976)
@@ -60,7 +60,7 @@ $ git merge jsfront/master
 
 ##### 1.3 提交之后：
 
-提交之后等合并到 `jsfront/month` 之后，为了保证是最新版，还需要进行一次本地与远程仓库的手动更新。
+提交合并到 `jsfront/month` 之后，为了保证与主仓库代码的一致性，还需要进行一次本地与远程仓库的手动更新。
 
 - [GitHub 同步 fork 别人的项目到自己的仓库](https://segmentfault.com/a/1190000003703918)
 
@@ -75,7 +75,7 @@ $ git merge jsfront/master
     - 也有的是平铺式的，结构简单，目录清晰，看起来一目了然。[【我的产品观】开发wangEditor一年总结](http://www.cnblogs.com/wangfupeng1988/p/4931999.html)
     - 也有的是以反问的形式做为标题，然后以背景开发，以论据为主题：[【如何做好一名实习生】](http://www.cnblogs.com/hustskyking/p/how-to-be-an-excellent-intern.html)
     - 有的纯技术文章或者没有注重任何的形式，就是以一系列的问题集合做为主体。这种内容只要超过一屏也是可以的，比如：[【你应该知道的JavaScript】](http://youbookee.com/2016/08/30/js-you-should-know/)
-
+- 文案排版最好能遵循[[文案排版规范][coding-copy-writing]]()（此规范来自 CODING 最佳实践）。
 #### 三. 内容采集的方式
 就是日常月报上的链接从哪里收集，从那里能够得到最新的信息，由于英文的传播问题，这里边暂时只列举中文的，英文的回头的补上，同学有好的英文网站也可以加上。
 
@@ -139,3 +139,4 @@ $ git merge jsfront/master
 [webstorm-download]:https://www.jetbrains.com/webstorm/
 [sourcetree-download]:https://www.sourcetreeapp.com/
 [cmder-home]:http://cmder.net/
+[coding-copy-writing]:https://open.coding.net/copywriting.html
