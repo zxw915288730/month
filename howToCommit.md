@@ -9,7 +9,7 @@
 #### 一. 如何提交
 首先使用 `Git` 工具提交到[https://github.com/jsfront/month](https://github.com/jsfront/month)，然后月底的时候由我发布到国内看云平台上[JS前端开发群月报](http://www.kancloud.cn/jsfront/month/82796)，这个平台的优点是：访问速度更快，查询更方便。
 
-##### 1.1 如何发起pull request
+##### 1.1 如何发起 `pull request`
 
 推荐 `GitHub` 使用工具，建议 [[WebStorm][webstorm-download]]() , [[Sourcetree][sourcetree-download]]() ，命令行( window 加强 `CMD` 工具 [[Cmder][cmder-home]]() ，建议不要下载那个客户端。
 
