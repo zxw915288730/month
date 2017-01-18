@@ -60,6 +60,7 @@ $ git merge jsfront/master
 
 提交合并到 `jsfront/month` 之后，为了保证与主仓库代码的一致性，还需要进行一次本地与远程仓库的手动更新。
 
+- [如何同步 Github fork 出来的分支](http://jinlong.github.io/2015/10/12/syncing-a-fork/)
 - [GitHub 同步 fork 别人的项目到自己的仓库](https://segmentfault.com/a/1190000003703918)
 
 
