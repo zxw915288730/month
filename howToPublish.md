@@ -1,4 +1,7 @@
 # 月报如何发布在github-page
+
+> 此文档仅用于月刊编辑群中的成员
+
 ## 安装必要依赖
 ```bash
 npm install gitbook-cli -g
