@@ -140,7 +140,7 @@ $ git commit -m "update"
 
 #### 六. 参与者
 
-- 提交者除了在 `GitHub` 正常的提交记录上出现之外，还会出现在每期的贡献者名单上，这以前没有，这期加上。
+- 自2016年10月开始提交者除了在 `GitHub` 正常的提交记录上出现之外，还会出现在每期的贡献者名单上。
 
 
 [webstorm-download]:https://www.jetbrains.com/webstorm/

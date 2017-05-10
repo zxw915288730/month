@@ -4,7 +4,8 @@
     "description": "js前端联盟知识月刊",
     "scripts": {
         "prepublish": "gitbook build",
-        "publish": "node script/gh-pages.js"
+        "publish": "node script/gh-pages.js",
+        "server": "gitbook serve"
     },
     "repository": {
         "type": "git",

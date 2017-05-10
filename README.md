@@ -12,3 +12,7 @@
 
 
 记录一些群内一些分享，致力打造中国质量最高的前端群。你不再只是一个阅读者，更是一个项目参与者内容创造者，欢迎fork之后pull。
+
+# 其他说明
+- [在线地址（github）](http://jsfront.org/month/) | [在线地址（看云）](http://www.kancloud.cn/jsfront/month/82796)
+- [如何贡献](https://github.com/jsfront/month/blob/master/howToCommit.md)
