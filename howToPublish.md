@@ -19,7 +19,7 @@ npm run pdf
 
 ## 发布到线上
 ```bash
-npm publish
+npm run publish
 ```
 看到以下输出则为成功
 ```bash
