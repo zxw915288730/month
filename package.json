@@ -6,7 +6,7 @@
         "prepublish": "gitbook build",
         "publish": "node script/gh-pages.js",
         "server": "gitbook serve",
-        "pdf": " gitbook pdf ./ pdf/month.pdf"
+        "pdf": "gitbook pdf ./ pdf/month.pdf"
     },
     "repository": {
         "type": "git",
