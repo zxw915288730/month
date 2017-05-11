@@ -12,6 +12,11 @@ npm install
 npm run server
 ```
 
+## 生成pdf
+```bash
+npm run pdf
+```
+
 ## 发布到线上
 ```bash
 npm publish

@@ -25,3 +25,4 @@ Session.vim
 .idea
 /_book/
 /node_modules/
+/*npm-debug.log

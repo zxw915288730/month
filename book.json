@@ -30,7 +30,6 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": [],
-    "title": "Sample GitBook",
+    "title": "JS 前端开发群月报",
     "variables": {}
 }
