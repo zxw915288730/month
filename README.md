@@ -1,5 +1,6 @@
 关于我群
 =====
+[![Build Status](https://travis-ci.org/jsfront/month.svg?branch=master)](https://travis-ci.org/jsfront/month)
 
 本群倡导一种开放，平等，自由的交流风格。但不强推某个观点，我们只是技术人，只是把技术做为谋生的一种手段，生活除了技术之外还有很多。职业除了技术之外还有很多东西需要培养或学习。
 
