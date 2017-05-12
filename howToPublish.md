@@ -25,3 +25,5 @@ npm run publish
 ```bash
 Publish SUCCESS!
 ```
+
+**已添加持续集成，无需手动发布**
